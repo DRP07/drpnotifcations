@@ -1,0 +1,36 @@
+{
+  "name": "DRP NOTIFICATION",
+  "short_name": "NotifyDRP",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait",
+  "icons": [
+      {
+          "src": "images/android-chrome-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+      },
+      {
+          "src": "images/android-chrome-512x512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+      }
+  ],
+  "screenshots": [
+      {
+          "src": "images/screenshot-wide.png",
+          "sizes": "3354x1848",
+          "form_factor": "wide",
+          "type": "image/png"
+      },
+      {
+          "src": "images/screenshot-normal.png",
+          "sizes": "1290x2796",
+          "type": "image/png"
+      }
+  ]
+
+}
+

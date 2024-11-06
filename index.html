@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Notification DRP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Notification DRP</h1>
+        <div class="notification-image">
+            <img src="images/notification.png" alt="Notification Image" id="notificationImage" />
+        </div>
+        
+        <button id="sendNotifications">Request Notifications</button>
+        <div id="notificationForm" style="display:none;">
+            <input type="text" id="title" placeholder="Title" />
+            <textarea id="body" placeholder="Body"></textarea>
+            <button id="showNotification">Show Notification</button>
+        </div>
+        <p id="messageOutput"></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
